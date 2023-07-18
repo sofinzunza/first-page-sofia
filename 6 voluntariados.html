@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Experto Animal</title>
+    <link rel="icon" type="image/jpg" href="/icono.jpg"/>
+    <link rel="StyleSheet" href="9 Estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color:rgb(237, 250, 246);">
+	<header>
+		<h1>ExpertoAnimal</h1>
+	</header>
+		 
+	<nav>
+		<ul>
+			<li><a href="1 index.html">Inicio</a></li>
+			<li><a href="2 huron.html">Huron</a></li>
+			<li><a href="3 gato.html">Gato</a></li>
+			<li><a href="4 perro.html">Perro</a></li>
+            <li><a href="5 Javi.html">Animales en peligro de extinción</a></li>
+            <li><a href="6 voluntariados.html">Voluntariados Grupales</a></li>
+		</ul>
+	</nav>
+	
+	
+	<h1>Voluntariados Grupales</h1>
+	
+	<p>Si está buscando un destino de voluntariado perfecto en el extranjero en 2023 - 2024, Volunteering Solutions está aquí, con una gran cantidad de oportunidades de voluntariado internacional increíbles y asequibles en 25 países de todo el mundo, con programas en casi 40 destinos.</p>
+    <p>No importa si desea sumergirse en las pintorescas vibraciones del Himalaya mientras realiza un voluntariado en Nepal, o volverse loco mientras realiza un voluntariado en Tailandia, ¡lo tenemos todo para usted! No solo eso, sino que puede experimentar la emoción de los safaris de vida silvestre en Kenia, hacer viajes por carretera en Australia, caminar por el Macchu Picchu en Perú, caminar por las medinas en Marruecos y aprender a cocinar paella en España. Suena increíble, ¿verdad?</p>
+    <p>Experto Animal facilita oportunidades de voluntariado grupal responsable y gratificante en el extranjero para estudiantes universitarios y universitarios, grupos de escuelas secundarias, familias, amigos y también grupos corporativos. Disponible en varios países de Europa, Asia, África y América Latina que incluyen destinos populares como Tailandia , Camboya ,Nepal , India , Tanzania , Kenia , Perú , Costa Rica , entre otros.</p>
+    <p>Especialmente diseñado para las necesidades del grupo, nos aseguramos de que los proyectos tengan un trabajo satisfactorio para cada miembro y sean óptimos para inmersiones culturales y viajes locales también. Los proyectos que se ofrecen son de naturaleza diversa y varios en número, pero los ideales para grupos incluyen proyectos de enseñanza y cuidado de niños, proyectos de conservación de la naturaleza y voluntariado para elefantes y programas especiales de viaje y voluntariado de 2 semanas que combinan el trabajo de campo y la exploración del destino visitado.</p>
+	<br>
+
+    <section>
+        <img src="elefantes.jpg">
+        <img src="mono.jpg">
+        <img src="malasia.jpg">
+        <img src="tortuga.jpg">
+    </section>
+
+    <p>Ofrézcase como voluntario para los programas de cuidado infantil con Soluciones de Voluntariado y marque la diferencia en la vida de los niños de comunidades desfavorecidas, pasando tiempo con ellos. Esta es la mejor manera de avanzar cuando se trata de imaginar un futuro mejor para el mundo y trabajar para lograrlo. Con proyectos de voluntariado de cuidado infantil disponibles en 25 países de Asia, África, América Latina y Europa, los voluntarios podrán interactuar significativamente con los lugareños, aprender un nuevo idioma, conocer a otros voluntarios de todo el mundo y experimentar los beneficios del compromiso cívico. .</p>
+    <br>
+    <section>
+        <img src="mujeres.jpg">
+        <img src="niñas.jpg">
+        <img src="enseñar.jpg">
+        <img src="niños.jpg">
+    </section>
+    <br>
+    <h2>¡Inscribe tu grupo aqui!</h2>
+    <p>Ya sea de estudiantes de Escuelas, Universidades, un gran grupo de amigos o incluso familiares; Anota a todos los participantes que te acompañaran al voluntariado para que podamos contactarlos y encontrar el mejor voluntariado que se adecue a sus necesidades, encontraremos el destino perfecto para tu grupo!</p>
+
+    <table>                   
+        <tr>                    
+            <td>                
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off"> 
+                    <div>                                                                 
+                        <label>Nombre completo</label><label class="validation-error hide" id="nombreCompletoValidationError">Este campo es requerido.</label>
+                        <input type="text" name="nombreCompleto" id="nombreCompleto">
+                    </div>
+                    <div>                                                                 
+                        <label>Rut*</label><label class="validation-error hide" id="rutValidationError"> ¡Este campo es Obligatorio!</label>
+                        <input type="text" name="rut" id="rut">
+                    </div>
+                    <div>
+                        <label>Número de Contacto</label>
+                        <input type="text" name="numero" id="numero">
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div>
+                        <label>País</label>
+                        <input type="text" name="pais" id="pais">
+                    </div>
+                    <div>
+                        <label>Región</label>
+                        <input type="text" name="region" id="region">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>                        
+                <table class="list" id="voluntarioList">
+                    <thead>
+                        <tr>             
+                            <th>Nombre Completo</th>    
+                            <th>Rut</th>
+                            <th>Teléfono</th>
+                            <th>Email</th>
+                            <th>País</th>
+                            <th>Región</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <script src="10 Javascript.js"></script>
+
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off"> 
+                    <div>                                                                
+                        <label>Cuantas personas son (incluyendo menores de edad)</label><label class="validation-error hide" id="nombreCompletoValidationError">Este campo es Obligatorio.</label>
+                        <input type="number" name="rut" id="rut">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+        </tr>
+    </table>
+    
+
+
+
+
+
+    <footer>
+        <center><p>Derechos de autor © 2023 ExpertoAnimal by Javiera Painemil & Sofia Inzunza</p></center>
+		
+	</footer>
+
+</body>
+</html>

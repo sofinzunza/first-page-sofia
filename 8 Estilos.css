@@ -1,0 +1,147 @@
+/* Estilos para la cabecera */
+header {
+    background-color: #bbe6ac;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Estilos para los titulos */
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #bbe6ac;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+    color: white;
+    background-color: #9be680;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 {
+    color: white;
+    background-color: #6eda68;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+h4 {
+    color: white;
+    background-color: #2cbd38;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: 15px;
+
+}
+
+/* Estilos para el menú */
+nav {
+    background-color: #4cc723;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color:black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:#0ead23;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    background-color:rgb(71, 194, 247);
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Aside*/
+aside {
+    width: 30%;
+    padding-right: 20px;
+    margin-right: 90px;
+    padding-left: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    float: right;
+    background-color: rgb(173, 229, 173);
+}
+li {
+    margin: 0 10px;
+    padding: 3px;
+}
+ul {
+    display: flex;
+    list-style: circle;
+}
+a:hover {
+    background-color:rgb(197, 197, 240);
+    color: white;
+    border-radius: 50px;
+}
+
+/*Cajas de texto e imagen*/
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img-containerJ {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+#recuadro1 {
+    display: flex;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: rgb(157, 180, 168);
+    text-align: center;
+    width: 1800px;
+    height: 200px;
+    padding: 10px;
+}
+#recuadro2 {
+    display: flex;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: rgb(167, 191, 179);
+    text-align: center;
+    width: 1400px;
+    height: 150px;
+    padding: 10px;
+}
+
+#item1 {
+    order: 2;
+    text-align: center;
+}
+
+

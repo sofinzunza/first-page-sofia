@@ -1,0 +1,146 @@
+/* Estilos para la cabecera */
+header {
+    background-color: #bbe6ac;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para los titulos */
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #bbe6ac;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+    color: white;
+    background-color: #9be680;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 {
+    color: white;
+    background-color: #6eda68;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+h4 {
+    color: white;
+    background-color: #2cbd38;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Estilos para el menú */
+nav {
+    background-color: #4cc723;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color:black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:#0ead23;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color:rgb(71, 194, 247);
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+/*Para las Imágenes*/
+* {
+    box-sizing: border-box;
+}
+
+        
+.imagen {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+        
+.mascotas::after {
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+
+/*Para las Cajas de Texto*/
+* {
+    box-sizing: border-box;
+}
+        
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    font-size: 15px;
+}
+        
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*forms*/
+form {
+    font-weight: 50;
+}
+form div {
+    margin: 10px;
+}
+
+fieldset {
+    min-width: 4px;
+    display: inline-block;
+}
+
+.container {
+    max-width: 900px;
+    background-color:#ddf3d5;
+    padding: 5px;
+    margin: 0px;
+}
+.circulo {
+    height: 1em;
+    width: 1em;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.rojo {background-color: rgb(241, 108, 108);}
+.verde {background-color: rgb(143, 238, 143);}
+
+ul {list-style-type: none; }
